@@ -7,8 +7,8 @@ namespace Task_8_1_4
         static void Main(string[] args)
         {
             PathSet rootDir = new PathSet();
-            PathSet nameDir = new PathSet(rootDir, "HomeDir");
-            PathSet nesteDir = new PathSet(nameDir, "NestedDir");
+            PathSet nameDir = new PathSet(rootDir, "FirstDir");
+            PathSet nesteDir = new PathSet(nameDir, "SecondDir");
             Console.WriteLine(nesteDir.GetFullPath());
         }
     }
@@ -17,14 +17,16 @@ namespace Task_8_1_4
         private PathSet HomePath;
         private string DirName;
         public PathSet()
-        { DirName = @"\"; }
+        { DirName = "\\"; }
         public PathSet(PathSet LocalDir, string NewDir)
         {
             HomePath = LocalDir;
             DirName = NewDir;
         }
         public string GetFullPath()
-        { return string.Concat(string.Concat(HomePath?.GetFullPath(), "\\", DirName) ?? "", DirName); }
+        { 
+            return string.Concat(string.Concat(HomePath?.GetFullPath() ?? "", "\\" ), DirName);
+        }
     }
     public class Drive
     {
