@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_8_1_5", "Task_8_1_5\Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common_DrivesClass", "Common_DrivesClass\Common_DrivesClass.csproj", "{BDFE2035-43E1-42A2-9928-42866CBBE168}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_8_2_1", "Task_8_2_1\Task_8_2_1.csproj", "{221CC334-4198-496C-BEAC-B4DF3322862F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BDFE2035-43E1-42A2-9928-42866CBBE168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDFE2035-43E1-42A2-9928-42866CBBE168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDFE2035-43E1-42A2-9928-42866CBBE168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221CC334-4198-496C-BEAC-B4DF3322862F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221CC334-4198-496C-BEAC-B4DF3322862F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221CC334-4198-496C-BEAC-B4DF3322862F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221CC334-4198-496C-BEAC-B4DF3322862F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
