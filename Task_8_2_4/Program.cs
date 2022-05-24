@@ -11,8 +11,8 @@ namespace Task_8_2_4
             {
 
                 DirectoryInfo testDir = new DirectoryInfo(@"C:\Users\Sergey\Desktop\testFolder");
-                if (testDir.Exists)
-                {
+            if (testDir.Exists)
+            {
                     testDir.MoveTo(@"C:\$Recycle.bin\testFolder");
                  //   testDir.MoveTo(@"C:\Users\Sergey\.Trash\testFolder");
                 }
