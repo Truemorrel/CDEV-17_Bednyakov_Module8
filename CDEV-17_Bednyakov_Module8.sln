@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File_write_example", "File_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_8_3_2", "Task_8_3_2\Task_8_3_2.csproj", "{1056438E-EBCD-425B-98FF-15957B520E79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_file_operations_example", "Binary_file_operations_example\Binary_file_operations_example.csproj", "{DFD13479-4D36-45C2-A147-8AFF01FB52F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{1056438E-EBCD-425B-98FF-15957B520E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1056438E-EBCD-425B-98FF-15957B520E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1056438E-EBCD-425B-98FF-15957B520E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD13479-4D36-45C2-A147-8AFF01FB52F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD13479-4D36-45C2-A147-8AFF01FB52F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD13479-4D36-45C2-A147-8AFF01FB52F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD13479-4D36-45C2-A147-8AFF01FB52F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
