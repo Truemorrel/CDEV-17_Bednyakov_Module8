@@ -21,7 +21,7 @@ namespace Task_8_4_2
                     string month = string.Concat((((DateTime.Today).Month < 10) ? "0" : ""), (DateTime.Today).Month);
                     string hour = string.Concat((((DateTime.Now).Hour < 10) ? "0" : ""), (DateTime.Now).Hour);
                     string minute = string.Concat((((DateTime.Now).Minute < 10) ? "0" : ""), (DateTime.Now).Minute);
-                    sf.Write($"{Environment.NewLine}Файл изменен {day}.{month} {hour}:{minute} на компьютере Windows 11");
+                    sf.Write($"{Environment.NewLine}Файл изменен {day}.{month} {hour}:{minute} на компьютере c ОС {Environment.OSVersion}");
                 }
             }
         }
