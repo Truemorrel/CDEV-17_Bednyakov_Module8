@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_8_3_2", "Task_8_3_2\Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_file_operations_example", "Binary_file_operations_example\Binary_file_operations_example.csproj", "{DFD13479-4D36-45C2-A147-8AFF01FB52F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_8_4_1", "Task_8_4_1\Task_8_4_1.csproj", "{3AF7FD28-6D54-47A0-AB66-CF1C12771638}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{DFD13479-4D36-45C2-A147-8AFF01FB52F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD13479-4D36-45C2-A147-8AFF01FB52F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD13479-4D36-45C2-A147-8AFF01FB52F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF7FD28-6D54-47A0-AB66-CF1C12771638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF7FD28-6D54-47A0-AB66-CF1C12771638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF7FD28-6D54-47A0-AB66-CF1C12771638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF7FD28-6D54-47A0-AB66-CF1C12771638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
